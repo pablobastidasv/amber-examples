@@ -18,7 +18,7 @@ public class Regular {
 
         Utilities.sequence()
                 .stream()
-                .map((Integer i) -> i * 2)
+                .map((i) -> i * 2)
                 .forEach(System.out::println);
 
         Test test = (d1, d2) -> d1 * 2 < d2;
